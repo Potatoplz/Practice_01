@@ -16,27 +16,27 @@
 	<body>
 	<div>
 	    <h2> 결제 데모</h2>
-	        <button type="button" id="iamportPayment" class="btn btn-outline-secondary"> 결제 테스트</button>
+	        <button type="button" id="impPayment" class="btn btn-outline-secondary"> 결제 테스트</button>
 	</div>
 	<script type="text/javascript">
 	
 	    // 문서가 준비되면 제일 먼저 실행
-	    $(document).ready(function(){$("#iamportPayment").click(function() {
-	    	iamportPayment();
+	    $(document).ready(function(){$("#impPayment").click(function() {
+	    	impPayment();
 	     });
 	    })
 	    // 버튼 클릭하면 실행
-	    function iamportPayment() {
+	    function impPayment() {
 	        IMP.init('imp82628187');
 	        
 		    IMP.request_pay({
 		    pg: "kakaopay"
 		    ,pay_method: "card"
-	        ,merchant_uid:"iamport_test_id1"
+	        ,merchant_uid:"imp_test_id"
 	        ,name: "상품"
 	        ,amount: 100
 	        ,buyer_email:"aaa@naver.com"
-	        ,buyer_name: "최연우"
+	        ,buyer_name: "홍길동"
 	        ,buyer_tel: "010-1234-5678" }
 	        , function(rsp) { //callback
 	            if (rsp.success) {
