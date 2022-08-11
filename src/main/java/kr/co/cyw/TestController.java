@@ -9,7 +9,7 @@ public class TestController {
 	
 	  @RequestMapping(value = "/home", method = RequestMethod.GET) 
 	  public String test() { 
-		  return "/pay/kakaopay";//jsp파일명
+		  return "/kakaopay/kakaopay";//jsp파일명
 	  }
 	 
 }
