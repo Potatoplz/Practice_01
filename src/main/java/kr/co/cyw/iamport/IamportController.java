@@ -1,4 +1,4 @@
-package kr.co.cyw.pay;
+package kr.co.cyw.iamport;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +9,6 @@ public class IamportController {
 
 	@RequestMapping(value = "/iamport", method = RequestMethod.GET)
 	public String iamport() {
-		return "/pay/iamport";
+		return "/import/iamport";
 	}
 }
