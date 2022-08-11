@@ -24,11 +24,12 @@
 	$(function() {
 		$('#kakaopay_btn').click(function() {
 			$.ajax({
-				type:'post'
-			 	,url:'/kakaoPay' 
-			 	,dataType:'json' ,
-			 	success:function(data){
-			 		alert(data.tid);
+			 	url:'kakaopay' 
+			 	,dataType:'json' 
+			 	,success:function(data){
+//			 		alert(data.tid);
+			 		var box = data.next_redirect_pc_url;
+			 		location.href = box;
 			 	} 
 			 	, error:function(error){
 			 	  	alert(error);

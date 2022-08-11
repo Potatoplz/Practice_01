@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class TestController {
-	/*
-	 * @RequestMapping(value = "/home", method = RequestMethod.GET) public String
-	 * test() { return "/pay/pay";//jsp파일명 }
-	 */
+	
+	  @RequestMapping(value = "/home", method = RequestMethod.GET) 
+	  public String test() { 
+		  return "/pay/kakaopay";//jsp파일명
+	  }
+	 
 }
