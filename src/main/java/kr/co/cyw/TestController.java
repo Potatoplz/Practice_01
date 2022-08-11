@@ -11,5 +11,9 @@ public class TestController {
 	  public String test() { 
 		  return "/kakaopay/kakaopay";//jsp파일명
 	  }
+	  @RequestMapping(value = "/header", method = RequestMethod.GET) 
+	  public String header() { 
+		  return "/header";//jsp파일명
+	  }
 	 
 }
