@@ -1,43 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title> Home </title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-	</head>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
 <body>
-		<h2>ì¹´ì¹´ì˜¤ í˜ì´</h2>
-		
-	<br>	
-	<div>
-		<button type="button" id="kakaopay_btn" class="btn btn-outline-secondary">ì¹´ì¹´ì˜¤í˜ì´ë¡œ ê²°ì œí•˜ê¸°</button>
-	</div>
-	
-	
-	<script type="text/javascript">
-
-	$(function() {
-		$('#kakaopay_btn').click(function() {
-			$.ajax({
-				url:'kakaopay2' 
-				 ,dataType:'json' 
-			 	,success:function(data){
-//			 		alert(data.tid);
-			 		var box = data.next_redirect_pc_url;
-			 		location.href = box;
-			 	} 
-			 	, error:function(error){
-			 	  	alert(error);
-				}
-			});//ajax
-		});//click
-	});//function
-	
-	</script>
+ 
+<h1> kakaoPay api ÀÌ¿ëÇÏ±â </h1>
+ 
+<form method="post" action="/kakaoPay">
+    <button>Ä«Ä«¿ÀÆäÀÌ·Î °áÁ¦ÇÏ±â</button>
+</form>
+ 
+ 
 </body>
 </html>
