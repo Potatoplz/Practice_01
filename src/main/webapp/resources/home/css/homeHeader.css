@@ -17,8 +17,7 @@
 }
 
 #navi{
- box-shadow: 0px 2px 10px gray;
-
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
  }
  
  #navi ul {
@@ -26,77 +25,37 @@
  
  }
 
-#topBar li {
-
-	display:inline;
-}
-
-
 
 #topBar {
 	position:absolute;
 	right:300px;
-	top:20px;
+	top:10px;
 	z-index:1000;
-	
 }
-
-
-
-/*topBar*/
-.dropbtn {
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:rgba(255, 255, 255, 0.404);; 
-  min-width: 80px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 10px;
-  text-decoration: none;
-  display: block;
-}
-
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropdown-content a:hover {color:#1A374D !important;}
-
-
 
 
 /*main logo*/
 #mainLogo{
 	text-align:center;
+	top:30px;
+	bottom:50px;
 }
 
-#logo{
-	width:100%;
+/*회원가입, 로그인, 로그아웃, 마이페이지*/
+#sign{
+	color:#804000;
+	font-size: 14px;
 }
+
 
 #topBar a{
 	text-decoration:none !important;
-	color:white;
+	color:#6c757d;
 }
 
 #topBar a:hover{
 	text-decoration:none !important;
-	color:#6998AB;
+	color:#c0c0c0;
 	transition-duration: 0.4s;
 	
 }
@@ -133,10 +92,6 @@ transition-duration: 0.4s;
 }
 
 
-#sign{
-	padding-left:10px;
-	
-}
 
 
 #navi{
