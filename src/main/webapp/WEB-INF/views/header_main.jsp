@@ -22,13 +22,15 @@
 <!-- 로그인, 회원가입, 고객센터 -->
 
 <div id="topBar">
-	<a id="sign" href="${pageContext.request.contextPath}/join/form"> 회원가입 </a>		
-	<a id="sign" href="${pageContext.request.contextPath}/login_form"> 로그인 </a>
-	<a id="sign" href="${pageContext.request.contextPath}/logout"> 로그아웃 </a>
-	<a id="sign" href="${pageContext.request.contextPath}/member/mypage"> 마이페이지 </a>
+<!-- 글자 사이 띄어쓰기 어떻게 하냐. 일단 공백 넣음. -->
+	<a id="sign" href="${pageContext.request.contextPath}/join/form"> 회원가입&nbsp;</a>		
+	<a id="sign" href="${pageContext.request.contextPath}/login_form"> 로그인&nbsp; </a>
+	<a id="sign" href="${pageContext.request.contextPath}/logout"> 로그아웃&nbsp;</a>
+	<a id="sign" href="${pageContext.request.contextPath}/member/mypage">&nbsp;마이페이지 </a>
 </div>
-<br><br>
 
+<br><br>
+<!-- 로고 부분 아래 위로 공간 주는 거 어떻게 하냐. 일단 br넣음. -->
 <!-- 로고 -->
 <div id="mainLogo">
 			<a href="/">
