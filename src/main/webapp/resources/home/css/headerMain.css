@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 /* 검색창 */
 #navi .gnb_search{position:absolute;right:400px;top:10px;width:242px}
 #navi .gnb_search .inp_search{width:242px;height:36px;padding:0 60px 0 14px;border:1px solid #f7f7f6;border-radius:18px;background-color:#f7f7f7;font-family: 'Noto Sans';font-weight:400;font-size:12px;color:#666;line-height:16px;outline:none}
@@ -20,45 +18,44 @@
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
  }
  
- #navi ul {
- padding-left:15%;
- 
- }
+#navi ul {
+	padding-left:15%;
 
+}
 
-#topBar {
+/* 메인 로고 */
+#mainLogo{
+	display:block;
+	text-align:center;
+	/* background-color:skyblue; */
+	margin:50px 0px 20px 0px;
+}
+
+/*회원가입, 로그인, 로그아웃, 마이페이지*/
+#loginBarText{
+	color:#6c757d;
+	font-size: 14px;
+	margin:0px 10px 0px 0px;
+}
+
+#loginBar a{ 
+	text-decoration:none !important; /*하이퍼링크 밑줄 없애기*/
+}
+
+#loginBar a:hover{
+	text-decoration:none !important;
+	color:#c0c0c0;
+	transition-duration: 0.4s;
+}
+
+#loginBar {
 	position:absolute;
 	right:300px;
 	top:10px;
 	z-index:1000;
 }
 
-
-/*main logo*/
-#mainLogo{
-	text-align:center;
-	top:30px;
-	bottom:50px;
-}
-
-/*회원가입, 로그인, 로그아웃, 마이페이지*/
-#sign{
-	color:#804000;
-	font-size: 14px;
-}
-
-
-#topBar a{
-	text-decoration:none !important;
-	color:#6c757d;
-}
-
-#topBar a:hover{
-	text-decoration:none !important;
-	color:#c0c0c0;
-	transition-duration: 0.4s;
-	
-}
+/* 찜하기, 장바구니 버튼 */
 
 #icon{
 	position:absolute;
@@ -85,14 +82,11 @@ transition-duration: 0.4s;
 }
 
 #cartbtn:hover {
-		color:#1A374D;
-transition-duration: 0.4s;
+	color:#1A374D;
+	transition-duration: 0.4s;
 
 	
 }
-
-
-
 
 #navi{
 position:-webkit-sticky;
@@ -102,7 +96,7 @@ z-index:100;
 }
 
 #mainLogo img{
-	  position:relative;
+  	position:relative;
 }
 
 .navScroll {

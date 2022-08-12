@@ -17,7 +17,7 @@ public class TestController {
 	}
 	@RequestMapping(value = "/header", method = RequestMethod.GET) 
 	public String header() { 
-		  return "/header_main";//메인헤더 작업중
+		  return "/headerMain";//메인헤더 작업중
 	}
 	@RequestMapping(value = "/home", method = RequestMethod.GET) 
 	public String home() { 
