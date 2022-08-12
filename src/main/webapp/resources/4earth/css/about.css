@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.table_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.write_table_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.view_table_bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.ck-editor__editable {
+    min-height: 400px;
+}
+.notice_editor {
+	margin-top: 10px;
+  width: 100%;
+  border-top: 2px solid #467443;
+  border-bottom: 1px solid #999;
+  padding: 0 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}

@@ -8,7 +8,7 @@
 <title>상부상酒</title>
 
 <!--CSS 파일-->
-<link  rel="stylesheet" href="${pageContext.request.contextPath}/resources/home/css/headerMain.css">
+<link  rel="stylesheet" href="${pageContext.request.contextPath}/resources/home/css/mainHeader.css">
 
 <!--CDN-->
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
