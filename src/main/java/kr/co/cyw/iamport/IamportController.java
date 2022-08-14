@@ -10,5 +10,5 @@ public class IamportController {
 	@RequestMapping(value = "/iamport", method = RequestMethod.GET)
 	public String iamport() {
 		return "/import/iamport";
-	}
+	}//iamport
 }
