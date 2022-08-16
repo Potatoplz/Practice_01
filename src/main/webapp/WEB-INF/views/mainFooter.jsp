@@ -11,7 +11,7 @@
             <div class="footer-about">
                 <div class="footer-inner">
                     <a href="${ path }" class="logo">
-                    	<img src="${ path }/resources/4earth/images/common/small_logo.png" alt="4Earth">
+                    	<img src="${ path }/resources/4earth/images/common/small_logo2.jpg"  width="140" height="45" alt="상부상주">
                     </a>	
 
 	
@@ -26,12 +26,10 @@
 	                    </div>
 	    
    	                    <div class="follow-sns">
-	                        <strong>Follow Us</strong>
 	                        <ul>
-	                        
-	                            <li><a href="javascript:void(0);"><i class="icon icon-instargram"></i>instargram</a></li>
-	                            <li><a href="javascript:void(0);"><i class="icon icon-facebook"></i>facebook</a></li>
-	                            <li><a href="javascript:void(0);"><i class="icon icon-youtube"></i>youtube</a></li>
+	                            <li><a href="javascript:void(0);"><img src="${ path }/resources/4earth/images/common/kakao_logo.png" width="50" height="50"></a></li>
+	                            <li><a href="javascript:void(0);"><img src="${ path }/resources/4earth/images/common/youtube_logo.png" width="48" height="48"></a></li>
+	                            <li><a href="javascript:void(0);"><img src="${ path }/resources/4earth/images/common/face_logo.png" width="48" height="48"></a></li>
 	                        </ul>
 	                    </div>
                 </div>

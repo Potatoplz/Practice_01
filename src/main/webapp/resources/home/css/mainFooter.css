@@ -12,9 +12,9 @@ a {
     color: #333;
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     clip: rect(85px 450px 395px 45px);
-}
+} */
 
 .wrap {
     display: flex;
@@ -68,10 +68,10 @@ footer .cop-info ul li strong {
 footer .follow-sns {
     text-align: center;
 }
-footer .follow-sns strong {
+/* footer .follow-sns strong {
     display: block;
     margin-bottom: 10px;
-}
+} */
 footer .follow-sns ul {
     display: flex;
 }
@@ -86,24 +86,7 @@ footer .follow-sns ul li a {
     display: block;
     width: 100%;
 }
-footer .icon {
-    display: block;
-    width: 30px;
-    height: 30px;
-    background: url(../images/common/icon_sns.png) 0 0 no-repeat;
-    opacity: .3;
-    margin: 0 auto 5px;
-}
-footer .icon:hover {
-    opacity: 1;
-}
-/* footer .icon.icon-twiter { background-position: 0 0; } */
-footer .icon.icon-instargram { background-position: -80px 0; }
-footer .icon.icon-facebook { background-position: 0 0; }
-footer .icon.icon-youtube { background-position: -120px 0; }
-footer .icon.icon-tell { background-position: 0 -30px; }
-footer .icon.icon-report { background-position: -40px -30px; }
-footer .icon.icon-inquiry { background-position: -80px -30px; }
+
 .footer-copy .footer-inner {
     padding-left: 210px;
     justify-content: flex-start;
