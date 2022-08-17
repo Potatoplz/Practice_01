@@ -23,6 +23,14 @@ public class TestController {
 	public String footer() { 
 		return "/mainFooter";//메인푸터 작업중
 	}
+	@RequestMapping(value = "/coupon", method = RequestMethod.GET) 
+	public String coupon() { 
+		return "/coupon/coupon";
+	}
+	@RequestMapping(value = "/coupon2", method = RequestMethod.GET) 
+	public String coupon2() { 
+		return "/coupon/coupon_reg";
+	}
 	@RequestMapping(value = "/home", method = RequestMethod.GET) 
 	public String home() { 
 		  return "/home0";//jsp파일명
