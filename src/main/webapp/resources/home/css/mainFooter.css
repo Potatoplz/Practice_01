@@ -33,11 +33,18 @@ a {
 footer {
     color: #999;
     border-top: 1px solid #ccc;
-    background: #F0EEEB;
+    background: #ffffff;
 }
 footer a {
     color: #999;
 }
+
+.info {
+    padding-left: 480px;
+    justify-content: flex-start;	
+	
+}
+
 .footer-inner {
     display: flex;
     justify-content: space-between;
@@ -52,44 +59,12 @@ footer a {
     justify-content: space-between;
     border-bottom: 1px solid #ddd;
 }
-footer .logo {
-    width: 100px;
-    margin: 0px 180px 0px 200px;
-}
-footer .cop-info ul li + li {
-    margin-top: 5px;
-}
-footer .cop-info ul li a {
-    text-decoration: underline;
-}
-footer .cop-info ul li strong {
-    font-weight: 500;
-}
-footer .follow-sns {
-    text-align: center;
-}
-/* footer .follow-sns strong {
-    display: block;
-    margin-bottom: 10px;
-} */
-footer .follow-sns ul {
-    display: flex;
-}
-footer .follow-sns ul li + li {
-    text-align: center;
-    margin-left: 10px;
-}
-footer .follow-sns ul li {
-    width: 71px;
-}
-footer .follow-sns ul li a {
-    display: block;
-    width: 100%;
-}
+
 
 .footer-copy .footer-inner {
-    padding-left: 210px;
+    padding-left: 80px;
     justify-content: flex-start;
+    font-size:15px;
 }
 .footer-copy .terms a {
     display: inline-block;
