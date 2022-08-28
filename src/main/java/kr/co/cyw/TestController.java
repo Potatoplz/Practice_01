@@ -13,7 +13,7 @@ public class TestController {
 			}
 	@RequestMapping(value = "/paybtn", method = RequestMethod.GET) 
 	public String test() { 
-		  return "/kakaopay/kakaopay";//jsp파일명
+		  return "/pay/paybtn";//jsp파일명
 	}
 	@RequestMapping(value = "/header", method = RequestMethod.GET) 
 	public String header() { 
