@@ -33,7 +33,7 @@ public class ChattingHandler extends TextWebSocketHandler{
         for(WebSocketSession sess : sessionList){
             sess.sendMessage(new TextMessage(message.getPayload()));
             }
-        }
+        } 
 
     //클라이언트 연결을 끊었을 때 실행
     @Override
